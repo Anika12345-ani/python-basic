@@ -6,7 +6,14 @@ class unitTest(unittest. Testcase):
 
     def test_sum_tc2(self):
         assert sum([1, 1, 1]) == 3, "should be 3"
+    
+     def test_sum_tc3(self):
+        assert sum([1, 1, 1, -1]) == 2, "error"
 
- if __name__ == "main":
-     test_sum_tc1()
-     test_sum_tc2()
+    if __name__ == "main":
+        test_sum_tc1()
+        test_sum_tc2()
+        test_sum_tc3()
+
+   
+
