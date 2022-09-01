@@ -1,12 +1,15 @@
-//*message="hello world"
+student_name = "mr. meViN"
+converted = (student_name.title())
+print(converted)
 
-print(message)
-print(message)
-print(message)*//
+print(student_name.upper())
 
-<<<<<<< HEAD
+print(converted.lower())
 
-=======
->>>>>>> origin/main
-student_name="mr. monika"
-print[student_name.title()]
+print('Hello' + " " + student_name.upper() + " " + student_name.lower())
+
+first_name = 'Ironman'
+last_name = 'Superhero'
+
+full_name = first_name + ' ' + last_name
+print(full_name)
